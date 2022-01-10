@@ -31,11 +31,11 @@ spec:
         - metadata:
             name: data-volume
           spec:
-            storageClassName: "standard"
+            storageClassName: "ondat-replicated"
             accessModes: [ "ReadWriteOnce" ]
             resources:
               requests:
-                storage: 3Gi
+                storage: 1Gi
 # the user credentials will be generated from this secret
 # once the credentials are generated, this secret is no longer required
 ---
