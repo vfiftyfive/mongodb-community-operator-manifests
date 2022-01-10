@@ -1,7 +1,7 @@
 apiVersion: mongodbcommunity.mongodb.com/v1
 kind: MongoDBCommunity
 metadata:
-  name: example-mongodb
+  name: mongodb
 spec:
   members: 3
   type: ReplicaSet
@@ -24,7 +24,7 @@ spec:
   statefulSet:
     spec:
         # Name for the service object created by the operator
-      serviceName: example-mongodb-svc
+      serviceName: mongodb
       selector: {}
         # Specifies a size for the data volume different from the default 10Gi
       volumeClaimTemplates:
