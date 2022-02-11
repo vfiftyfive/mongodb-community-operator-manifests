@@ -21,7 +21,7 @@ spec:
           resources:
             requests:
               storage: 1Gi
-          storageClassName: ondat-replicated
+          storageClassName: ondat-encrypted
       - metadata:
           name: logs-volume
         spec:
@@ -30,7 +30,7 @@ spec:
           resources:
             requests:
               storage: 1Gi
-          storageClassName: ondat-replicated
+          storageClassName: ondat-encrypted
   type: ReplicaSet
   users:
   - db: admin
