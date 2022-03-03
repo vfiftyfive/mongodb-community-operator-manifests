@@ -1,4 +1,4 @@
-#Deploy MongoDB with Ondat
+# Deploy MongoDB with Ondat
 
 The YAML manifests in this repo help you to perform the following tasks:
 - Deploy MongoDB with the Community Operator. It creates a 3-node MongoDB cluster as a Kubernetes `StatefulSet` with 3 replicas.
